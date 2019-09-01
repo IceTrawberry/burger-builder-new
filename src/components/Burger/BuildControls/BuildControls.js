@@ -8,10 +8,10 @@ const controls= [
   {label:'Meat',type:'meat'},
 ];
 
-const buildControls=(props) =>{
-<div className ={classes.BuildControls}>{controls.map(ctrl=>{
-    <BuildControl key={ctrl.label} label={ctrl.label}
-  })}</div>
-};
+const BuildControls=(props) =>(
+<div className ={classes.BuildControls}>{controls.map(ctrl=>(
+     <BuildControl key={ctrl.label} label={ctrl.label}/>
+  ))}</div>
+);
 
-export default buildControls;
+export default BuildControls;
