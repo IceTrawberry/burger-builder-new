@@ -20,7 +20,7 @@ const buildControl = (
   } > Less < /button> <
   button className = {
     classes.More
-  } > More < /button> < /
+  } onClick={props.added} > More < /button> < /
   div >
 );
 
